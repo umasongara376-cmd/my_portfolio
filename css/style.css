@@ -1,0 +1,177 @@
+/* universal selector */
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* background color */
+/* here body is a selector
+backgrou.. is a property
+antiq.... is a value */
+
+body{
+    background-color: antiquewhite; 
+}
+
+/* element selector */
+
+h1{
+    color:blue;
+    text-align:center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+p{
+    color: rgb(110, 43, 90);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+
+
+h2{
+    color:rgb(48, 114, 123);
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+    border: 2px solid black;
+    border-width: 2px;
+    border-style:dotted;
+    border-color: rgb(174, 72, 92);
+    border-radius: 80px;
+}
+
+h3{
+    color: #b86796;
+    
+}
+
+h4{
+    color: #823b51;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+    border: 2px solid white;
+    padding:7px 5px;
+    border-radius: 80px;
+    width: 300px;
+    
+
+
+    
+}
+
+table{
+    background-color: lightgray;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside{
+    color: rgb(112, 60, 142);
+    font-style:oblique;
+    line-height: 1.4;
+}
+
+img{
+    border-radius: 15px;
+    border:2px solid black;
+}
+
+audio{
+    border: 2px solid black;
+    border-radius: 30px;
+    width:300px
+
+}
+
+video{
+    border-radius: 10px;
+    border: 2px solid beige;
+}
+
+div2{
+    color: rgb(86, 48, 121);
+}
+
+
+/* descendant selector */
+
+
+a{
+    text-decoration:underline;
+}
+
+
+/* class selector */
+
+.info{
+    color: rgb(158, 63, 63);
+}
+
+.btn{
+    background-color: rgb(27, 48, 41);
+    color: #ebc7dc;
+    border: 2px solid blueviolet;
+    letter-spacing: 2px;
+    margin:20px;
+    
+}
+
+.span{
+    color: rgb(45, 65, 65);
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start; 
+    gap: 20px;
+    flex-wrap: wrap; 
+  
+}
+
+.card{
+    color: rgb(193, 139, 95);
+    line-height: 1.4;
+    
+}
+
+
+/* id selector */
+
+#title{
+    color: rgb(117, 35, 51);
+}
+
+/* grouping selector */
+
+label,footer{
+    color: rgb(88, 88, 173);
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid brown;
+    border-style: dotted;
+    border-radius: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
